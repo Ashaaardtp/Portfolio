@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Gill";
-  src: url("./public/gill-sans-mt-condensed.ttf");
+  src: url("/gill-sans-mt-condensed.ttf");
 }
 
 @import "tailwindcss";
