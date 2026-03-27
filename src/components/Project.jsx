@@ -46,9 +46,9 @@ export default function Project() {
                 }}
                 className="overflow-hidden">
                 <img
-                  src="./public/mikrotik.png"
+                  src="/mikrotik.png"
                   alt="Website Belajar Mikrotik"
-                  className="w-full h-full object-cover min-h-[260px] md:min-h-[340px] md:group-hover:scale-105 transition-transform duration-500 ease-out"
+                  className="w-full h-full object-cover min-h-65 md:min-h-85 md:group-hover:scale-105 transition-transform duration-500 ease-out"
                 />
               </Motion.div>
 

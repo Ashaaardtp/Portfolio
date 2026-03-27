@@ -49,7 +49,7 @@ export default function Hero() {
             custom={0}
             className="relative h-full w-full max-w-sm sm:max-w-md md:max-w-lg justify-self-center md:justify-self-end order-1 md:order-1">
             <img
-              src="./public/pasha.webp"
+              src="/pasha.webp"
               alt="Pasha Raditya Putra"
               className="w-full h-auto object-contain object-top md:object-cover md:object-top md:max-h-[78vh] drop-shadow-[0_14px_35px_rgba(0,0,0,0.45)]"
             />

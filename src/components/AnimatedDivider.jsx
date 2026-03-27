@@ -9,7 +9,7 @@ export default function AnimatedDivider({
       className={`relative w-full py-6 md:py-8 ${className}`}>
       {/* Garis yang melukis dirinya sendiri */}
       <Motion.div
-        className="h-px w-full bg-gradient-to-r from-transparent via-(--accent-gold) to-transparent"
+        className="h-px w-full bg-linear-to-r from-transparent via-(--accent-gold) to-transparent"
         initial={{ scaleX: 0 }}
         whileInView={{ scaleX: 1 }}
         viewport={{ once: true, amount: 0.8 }}

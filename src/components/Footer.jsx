@@ -52,13 +52,13 @@ export default function Footer() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             custom={0}
-            className="md:min-w-[210px] flex flex-col h-full">
+            className="md:min-w-52.5 flex flex-col h-full">
             <div>
               <h2 className="text-3xl font-bold mb-2 font-gill tracking-wide">
                 Pasha Raditya Putra
               </h2>
               <div className="flex flex-col mb-3 font-montserrat">
-                <h3 className="leading-[20px] font-extrabold text-(--accent-gold)">
+                <h3 className="leading-5 font-extrabold text-(--accent-gold)">
                   <span className="text-md">
                     TKJ Student & Developer
                   </span>
@@ -118,7 +118,7 @@ export default function Footer() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             custom={1}
-            className="md:min-w-[170px] flex flex-col h-full justify-center">
+            className="md:min-w-42.5 flex flex-col h-full justify-center">
             <h2 className="text-2xl font-bold mb-3">
               Navigasi
             </h2>
@@ -200,7 +200,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div className="md:w-[200px] rounded-xl border border-(--accent-gold)/25 bg-black/25 p-4">
+              <div className="md:w-50 rounded-xl border border-(--accent-gold)/25 bg-black/25 p-4">
                 <p className="text-xs tracking-[0.2em] text-(--accent-gold) mb-2">
                   QUICK INFO
                 </p>

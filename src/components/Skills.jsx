@@ -79,8 +79,8 @@ export default function Skills() {
         {/* Background layers */}
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--primary-cta)_0%,var(--bg-card)_42%,var(--bg-main)_100%)]" />
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.06)_0%,transparent_42%,rgba(0,0,0,0.85)_100%)]" />
-        <div className="pointer-events-none absolute -top-24 left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-(--primary-cta)/25 blur-3xl" />
-        <div className="pointer-events-none absolute -bottom-40 -left-24 h-[520px] w-[520px] rounded-full bg-(--bg-card)/60 blur-3xl" />
+        <div className="pointer-events-none absolute -top-24 left-1/2 h-105 w-105 -translate-x-1/2 rounded-full bg-(--primary-cta)/25 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-40 -left-24 h-130 w-130 rounded-full bg-(--bg-card)/60 blur-3xl" />
 
         <div className="relative mx-auto w-full max-w-6xl">
           {/* Header */}
