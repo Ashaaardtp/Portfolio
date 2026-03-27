@@ -288,21 +288,21 @@ export default function Footer() {
                     WhatsApp
                   </span>
                   <span className="text-sm text-(--text-main)/80">
-                    +62 851-7342-9018
+                    +62 895-0913-5859
                   </span>
                 </Motion.a>
 
                 <Motion.a
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  href="mailto:contact.random.dev108@gmail.com"
+                  href="mailto:pshhaaa04@gmail.com"
                   className="flex items-center justify-between rounded-xl border border-sky-500/40 bg-sky-500/10 px-4 py-3 hover:bg-sky-500/20 transition-colors duration-200">
                   <span className="inline-flex items-center gap-2 text-(--text-main)">
                     <FaEnvelope size={16} />
                     Email
                   </span>
                   <span className="text-sm text-(--text-main)/80">
-                    contact.random.dev108@gmail.com
+                    pshhaaa04@gmail.com
                   </span>
                 </Motion.a>
               </div>
