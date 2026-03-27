@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "Gill";
+  src: url("./src/assets/gill-sans-mt-condensed.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans;
+  --font-gill: "Gill", serif;
+
+  --bg-main: #0d0d0d;
+  --bg-card: #4a0404;
+  --bg-card-light: #5e0505;
+
+  --primary-cta: #950101;
+  --primary-hover: #b50101;
+
+  --accent-gold: #d4af37;
+  --accent-gold-glow: rgba(212, 175, 55, 0.3);
+
+  --text-main: #f2f2f2;
+  --text-muted: #a0a0a0;
+
+  --glow-red: rgba(74, 4, 4, 0.6);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    @apply transition-all duration-100 ease-out;
+  }
+  .highlight {
+    @apply text-(--accent-gold) font-bold;
+  }
+  .horizontal-line {
+    @apply w-[95%] h-[2px] rounded-full bg-(--accent-gold)/30 mx-auto md:w-[2px] md:h-auto md:self-stretch md:mx-0;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-cursor {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--accent-gold);
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-slow {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
