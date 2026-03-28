@@ -279,7 +279,7 @@ export default function Footer() {
                 <Motion.a
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  href="https://wa.me/6285173429018"
+                  href="https://wa.me/6289509135859"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-between rounded-xl border border-green-500/40 bg-green-500/10 px-4 py-3 hover:bg-green-500/20 transition-colors duration-200">
